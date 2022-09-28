@@ -230,7 +230,7 @@ public class PdfA1Checker extends PdfAChecker {
 
     @Override
     protected long getMaxNumberOfIndirectObjects() {
-        return 8_388_607;
+        return 10_388_607;
     }
 
     @Override
