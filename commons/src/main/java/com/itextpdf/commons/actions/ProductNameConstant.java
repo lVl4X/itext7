@@ -28,7 +28,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 public final class ProductNameConstant {
-    public static final String ITEXT_CORE = "itext-core";
+    public static final String ITEXT_CORE = "lfst-pdf";
     public static final String PDF_HTML = "pdfHtml";
     public static final String PDF_SWEEP = "pdfSweep";
     public static final String PDF_OCR_TESSERACT4 = "pdfOcr-tesseract4";

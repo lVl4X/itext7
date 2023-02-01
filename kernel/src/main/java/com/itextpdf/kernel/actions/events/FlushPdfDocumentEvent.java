@@ -76,8 +76,8 @@ public final class FlushPdfDocumentEvent extends AbstractITextConfigurationEvent
 
         if (events == null || events.isEmpty()) {
             final ProductData productData = ITextCoreProductData.getInstance();
-            final String noEventProducer = "iText\u00ae \u00a9" + productData.getSinceCopyrightYear() + "-"
-                    + productData.getToCopyrightYear() + " iText Group NV (no registered products)";
+            final String noEventProducer = "LfSt PDF " + productData.getSinceCopyrightYear() + "-"
+                    + productData.getToCopyrightYear();
             pdfDocument.getDocumentInfo().setProducer(noEventProducer);
             return;
         }
